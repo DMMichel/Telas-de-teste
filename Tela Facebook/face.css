@@ -1,0 +1,141 @@
+/* Regras */
+
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+
+/* config global */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*config do body */
+
+body {
+    background-color: #F0F2F5;
+    overflow-x: hidden;
+}
+
+/* config logo do face */
+
+.face {
+    display: block;
+    position: absolute;
+    margin-top: 12.9em;
+    margin-left: 17em;
+    width: 31.8em;
+}
+
+#Ftext {
+    margin-top: 0.6em;
+    font-size: 20.3pt;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* config senha */
+
+.login {
+    display: block;
+    position: absolute;
+    margin-top: 8.2em;
+    margin-left: 53em;
+    background-color: #FFFFFF;
+    padding: 1em;
+    border-radius: 0.3em;
+    box-shadow: 0px 1px 7px 1px #a8a8a8bd;
+}
+
+.login input {
+    font-family: 'Raaleway', sans-serif;
+    padding: 0.1em 2em 0.2em 1em;
+    font-size: 12pt;
+    border: 2px solid #ECEDEF;
+    margin-bottom: 0.7em;
+    padding: 1em 9.5em 1em 1em;
+    border-radius: 0.3em;
+}
+
+.login input::placeholder {
+    color: #90949C;
+}
+
+.login fieldset {
+    border: 1px solid #dadde1;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.login button#entrar {
+    background-color: #1f75e6;
+    color: #FFFFFF;
+    border-radius: 0.3em;
+    border: none;
+    font-size: 15pt;
+    font-family: 'Raleway', sans-serif;
+    padding: 0.6em 7.8em;
+}
+
+.login a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1f75e6;
+    font-size: 11pt;
+}
+
+.login div#Fsenha {
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+}
+
+button#novaconta {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #42b72a;
+    color: #ffffff;
+    padding: 0.8em;
+    font-size: 13.2pt;
+    border-radius: 0.3em;
+    border: none;
+    margin-top: 1.3em;
+    margin-left: 5.7em;
+    margin-bottom: 0.5em;
+}
+
+/* Config rodapé */
+
+#celebridade {
+    display: block;
+    position: absolute;
+    margin-top: 35.3em;
+    margin-left: 59em;
+    color: #000000;
+    font-size: 10.8pt;
+    width: 28em;
+    text-align: center;
+}
+
+#celebridade span {
+    font-size: 12pt;
+}
+
+#celebridade a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+
+/* config do footer */
+/*
+footer {
+    display: block;
+    position: absolute;
+    background-color: #FFFFFF;
+    color: #90949C;
+    margin-top: 50em;
+    height: auto;
+    width: 60em;
+    padding: 1em 20em;
+    text-align: justify;
+}
+incompleto por enquanto */
