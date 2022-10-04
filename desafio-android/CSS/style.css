@@ -1,0 +1,228 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "android";
+    src: url(/desafio-android/fontes/idroid.otf);
+}
+
+
+/* config global */
+*  {
+    margin: auto;padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1536px;
+    min-width: 250px;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #84e1ad; 
+}
+
+/* config header */
+
+header {
+    background-image: linear-gradient(to top, #1a5c38, #3cd983);
+    padding-bottom: 5px;
+}
+
+/* config conteiners do header */
+
+.conteiner-historia{
+    border-radius: 0 0 15px 15px;
+}
+.conteiner-header h1 {
+    font-size: 50px;
+    padding: 20px 0 30px 0;
+}
+
+.conteiner-header p {
+    text-shadow: 1px 1px 1px #ffffff;
+    color: #91c0a5;
+    margin: auto;
+    width: 30%;
+    font-size: 20px;
+}
+
+.conteiner-header div {
+    color: #ffffff;
+    text-align: center;
+}
+.conteiner-menu {
+    font-size: 15px;
+    margin-top: 50px;
+    margin-left: 25px;
+    padding-bottom: 4.5px;
+}
+
+.conteiner-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px 10px 15px;
+    transition: 0.5s;
+}
+
+.conteiner-menu a:hover {
+    text-decoration: underline;
+    background-color: #a2eec3;
+    padding: 10px 15px 10px 15px;
+    border-radius: 7px;
+}
+
+
+
+
+/* config da section historia/main */
+
+section.conteiner-historia {
+    margin-bottom: 30px;
+}
+
+main {
+    background-color: #84e1ad;    
+}
+
+.conteiner-historia {
+    box-shadow: 1px 0px 16px -3px rgba(0,0,0,0.48);
+    background-color: #ffffff;
+    padding: 0 20px 0 20px;
+    max-width: 1536px;
+    min-width: 415px;
+    margin: 0 auto 0 auto;
+    width: 55%;
+}
+
+.conteiner-generico a {
+    font-weight: bold;
+    color: #46a370;
+    text-decoration: none;
+}
+
+.conteiner-generico a:hover {
+    text-decoration: underline;
+}
+
+.conteiner-generico a::after {
+    content: "🔗";
+}
+
+.conteiner-generico span {
+    font-weight: bold;
+    color: #46a370;
+}
+
+.conteiner-generico h1 {
+    font-family: "android", sans-serif;
+    color: #2d6948;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.conteiner-generico h2{
+    font-family: "android", sans-serif;
+    color: #2d6948;
+    background-image: linear-gradient(to right, #c8ecd7, #ffffff);
+    padding: 5px 0 5px 5px;
+}
+
+.paragrafo {
+    padding: 15px 0 15px 0;
+    text-indent: 20px;
+    text-align: justify ;
+}
+
+
+.imagem img {
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 100%;
+}
+
+/* config do iframe */
+
+.conteiner-iframe {
+    background-color: #1C633C;
+    padding: 25px;
+    margin-top: 15px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+iframe {
+    width: 100%;
+    margin-left: -20px;
+}
+
+/* config do conteudo final */
+
+
+
+.conteiner-final {
+    background-color: #a2eec3;
+    border-radius: 10px;
+}
+
+.conteudo-final h2 {
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #2b965b;
+    border-radius: 10px 10px 0 0;
+    padding: 5px 0 5px 20px;
+}
+
+.paragrafo-final {
+    text-indent: 20px;
+    padding: 5px 5px 10px 10px;
+}
+
+ul {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    columns: 2;
+    list-style-position: inside;
+    list-style-type: '\2714\00a0\00a0';
+}
+
+
+.conteudo-final a {
+    font-weight: bold;
+    color: #0b4c28;
+    text-decoration: none;
+}
+
+.conteudo-final a:hover {
+    text-decoration: underline;
+}
+
+.conteudo-final a::after {
+    content: "🔗";
+}
+
+/* config final/footer */
+
+.final {
+    text-align: justify;
+    margin-top: 15px;
+    padding-bottom: 25px;
+}
+
+.final span {
+    font-weight: bold;
+    color: #46a370;  
+}
+
+footer {
+    padding: 6px 0 6px 0;
+    background-color: #1C633C;
+    text-align: center;
+    color: #91c0a5;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
